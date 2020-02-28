@@ -23,7 +23,7 @@ let songs = {
     trackId: "5Nm9ERjJZ5oyfXZTECKmRt"
   },
   curse: {
-    title: "We're not going to take it",
+    title: "We're Not Gonna Take It",
     artist: "Twisted Sister",
     albumCover: "",
     trackId: "1hlveB9M6ijHZRbzZ2teyh"
@@ -45,7 +45,7 @@ export default Controller.extend({
       let request = yield fetch(url, {
         headers: {
           Authorization:
-            "Bearer BQCsZvzr-f8jYg_yaEYSrvywhlYovTH5GuzHPiQPo8igpSH8juO77CGHvD9_Wi-B0jAs3upk2nAjWWOuDnM"
+            "BQBTMD1of0Vr3s6-eUodMrWxsSZwei8K6IqZn2L4ADa22Otwwd4YdR-o2vvifEDO7k5qrBZQqTrkhFC_9To"
         }
       });
       let json = yield request.json();
